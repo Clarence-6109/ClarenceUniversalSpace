@@ -1,0 +1,38 @@
+body{
+    background-color: cornflowerblue;
+}
+header{
+    align-items: center;
+    text-align: center;
+}
+nav a{
+    text-align: center;
+    align-items: center;
+    margin-left: 2px;
+    color: aliceblue;
+    text-decoration: wavy;
+}
+
+/* Clarence signature styling (appended) */
+.project-signature {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  opacity: 1;
+  font-weight: 800;
+  font-size: 1rem;
+  margin-top: 12px;
+}
+.project-signature img {
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+  border-radius: 6px;
+  box-shadow: 0 6px 18px rgba(0,170,255,0.25);
+}
+.project-sign-name {
+  color: #e6eef9;
+  font-weight: 700;
+  margin-left: 6px;
+  font-size: 1.02rem;
+}

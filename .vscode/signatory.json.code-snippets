@@ -1,0 +1,13 @@
+{
+  "Clarence signature": {
+    "scope": "",
+    "prefix": "clarence-sign",
+    "body": [
+      "<div class=\"project-signature\">",
+      "  <img src=\"/assets/images/clarencesymbol.png\" alt=\"Clarence\" />",
+      "  <span class=\"project-sign-name\">Clarence</span>",
+      "</div>"
+    ],
+    "description": "Insert Clarence name + logo signature"
+  }
+}

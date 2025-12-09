@@ -1,0 +1,143 @@
+body{
+    background-image: url(bgg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    image-rendering: auto;
+    margin: 0;
+    padding: 0;
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+.login-card{
+    width: 320px;
+    padding: 25px;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    backdrop-filter: blur(12px);
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+h1{
+    color: crimson;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bolder;
+    justify-self: left;
+}
+.head-main{
+    color: blue;
+    font-style: italic;
+    text-align: right;
+}
+input{
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    padding-left: 10px;
+}
+button{
+    width: 100%;
+    height: 35px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: black;
+    font-weight: bolder;
+    cursor: pointer;
+}
+button:hover{
+    background-color: lime;
+}
+.btn{
+     width: 100%;
+    height: 35px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.btnn{
+    width: 100%;
+    height: 35px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.link{
+    color: blue;
+    font-family: 'Poppins', sans-serif;
+    justify-self: center;
+}
+
+.linkkk{
+    color: black;
+    font-size: medium;
+}
+.bottom{
+    margin-top: 20px;
+    text-align: center;
+}
+.liw{
+    color: white;
+    text-align: center;
+    margin-top: 2px;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 20px;
+}
+.icon a{
+    text-decoration: none;
+    color: white;
+    font-size: 15spx;
+}
+
+.icon ion-icon{
+    padding-left: 14px;
+    font-size: 20px;
+    transition: 0.4s ease-in-out;
+}
+
+.icon ion-icon:hover{
+    color: lime;
+}
+/* Clarence signature styling (appended) */
+.project-signature {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  opacity: 1;
+  font-weight: 800;
+  font-size: 1rem;
+  margin-top: 12px;
+}
+.project-signature img {
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+  border-radius: 6px;
+  box-shadow: 0 6px 18px rgba(0,170,255,0.25);
+}
+.project-sign-name {
+  color: #e6eef9;
+  font-weight: 700;
+  margin-left: 6px;
+  font-size: 1.02rem;
+}

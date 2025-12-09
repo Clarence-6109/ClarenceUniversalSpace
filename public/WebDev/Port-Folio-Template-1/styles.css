@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%), url(1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    width: 1200px;
+    height: 70px;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: orange;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    float: left;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+
+.menu{
+    width: 200px;
+    height: 70px;
+    float: left;
+    padding: -10px 0 0 50px;
+}
+
+ul{
+    display: flex;
+    float: left;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 100px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    font-size: large;
+}
+
+ul li a:hover{
+    color: #ff7200;
+}
+
+
+.search{
+    width: 300px;
+    float: right;
+    margin-top: -50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.srch{
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #ff7200;
+    border-right: none;
+    font-size: 16px;
+    color: white;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 10px;
+    outline: none;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    font-size: 16px;
+    color: white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+
+.content{
+    width: 1200px;
+    color: white;
+    position: relative;
+    height: auto;
+    margin: auto;
+}
+
+.content .par{
+    width: 600px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 20px;
+    margin-top: 20px;
+    line-height: 1.5;
+}
+
+.content h1{
+    font-size: 50px;
+    font-family:'Times New Roman', Times, serif;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 1px;
+}
+
+.content .cn{
+    width: 150px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    font-size: 16px;
+    color: white;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: .6s ease;
+}
+
+.content .cn a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    transition: .6s ease;
+}
+
+.cn:hover{
+    background-color: white;
+}
+
+.content span{
+    color: #ff7200;
+    font-size: 60px;
+}
+
+.form{
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: -20px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px;
+} 
+
+.form h2{
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #ff7200;
+}
+
+.form input{
+    width: 240px;
+    height: 40px;
+    background: transparent;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    font-size: 14px;
+    color: white;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+.form input:focus{
+    outline: none;
+}  
+
+::placeholder{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    margin-top: 30px;
+    border-radius: 10px;
+    transition: 0.4s ease;
+}
+
+.btnn:hover{
+    background-color: white;
+    color: black;
+}
+
+.btnn a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    transition: .6s ease;
+}
+
+.form .link{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.form .link a{
+    text-decoration: none;
+    color: #ff7200;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+.liw{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.icon a{
+    text-decoration: none;
+    color: white;
+    font-size: 15spx;
+}
+
+.icon ion-icon{
+    padding-left: 14px;
+    font-size: 20px;
+    transition: 0.4s ease-in-out;
+}
+
+.icon ion-icon:hover{
+    color: #ff7200;
+}
+/* Clarence signature styling (appended) */
+.project-signature {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  opacity: 1;
+  font-weight: 800;
+  font-size: 1rem;
+  margin-top: 12px;
+}
+.project-signature img {
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+  border-radius: 6px;
+  box-shadow: 0 6px 18px rgba(0,170,255,0.25);
+}
+.project-sign-name {
+  color: #e6eef9;
+  font-weight: 700;
+  margin-left: 6px;
+  font-size: 1.02rem;
+}

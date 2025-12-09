@@ -1,0 +1,57 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Contact Us â€” Shop Hub</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <header class="site-header">
+        <h1>Shop Hub</h1>
+        <nav class="main-nav">
+            <a href="index.html">Home</a>
+            <a href="shop.html">Shop</a>
+            <a href="about.html">About</a>
+            <a href="contact.html" aria-current="page">Contact</a>
+            <a href="login.html">Login</a>
+        </nav>
+    </header>
+
+    <main class="contact-page">
+        <section class="contact-info">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or need assistance, feel free to reach out to us!</p>
+            <p>Email: <a href="mailto:support@shophub.example">support@shophub.example</a></p>
+            <p>Phone: <a href="tel:+1234567890">+1 (234) 567-890</a></p>
+        </section>
+
+        <section class="contact-form">
+            <h3>Get in Touch</h3>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; <span id="year"></span> Shop Hub. All rights reserved.</p>
+    <div class="project-signature" style="margin-top:12px;"><img src="/assets/images/clarencesymbol.png" alt="Clarence" /><span class="project-sign-name">Clarence</span></div>
+</footer>
+
+    <script>
+        // small script to set year
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
+
